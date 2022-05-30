@@ -6,21 +6,49 @@
     border: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    color: black;
-    font-size: 1rem;
+
 }
 
-body {
-    width: 100%;
-    height: auto;
-    background-color: whitesmoke;
-    background: url("../images/diy-bg.jpg") no-repeat center;
-    background-size: cover;
-}
-
-h1,
-h2,
-h3 {
-    font-family: 'Lobster',  cursive, sans-serif;
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 6vh;
+    background-color: #061a54e6;
     
+}
+
+.logo {
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 2rem;
+}
+.logo a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 25em;
+}
+.nav-links li {
+    list-style: none;
+}
+.nav-links a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.burger div{
+    width: 25px;
+    height: 3px;
+    background-color: whitesmoke;
+    margin: 5px;
+}
+.burger {
+    display: none;
 }
