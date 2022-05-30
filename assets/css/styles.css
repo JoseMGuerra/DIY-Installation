@@ -6,4 +6,21 @@
     border: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 1rem;
+}
+
+body {
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    background: url("../images/diy-bg.jpg") no-repeat center;
+    background-size: cover;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Lobster',  cursive, sans-serif;
+    
 }
