@@ -10,7 +10,7 @@
 }
 
 nav {
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
     min-height: 6vh;
@@ -31,7 +31,7 @@ nav {
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 25em;
+    width: 20em;
 }
 .nav-links li {
     list-style: none;
@@ -43,12 +43,13 @@ nav {
     letter-spacing: 2px;
     font-weight: bold;
 }
-.burger div{
-    width: 25px;
-    height: 3px;
-    background-color: whitesmoke;
-    margin: 5px;
-}
-.burger {
-    display: none;
+
+@media screen and (min-width: 800px) {
+
+    nav {
+        display: flex;
+    }
+    .nav-links {
+        width: 25em;
+    }
 }
