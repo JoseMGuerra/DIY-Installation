@@ -6,11 +6,10 @@
     border: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-
 }
 
+/****** Navigation and Logo ******/
 nav {
-    /* display: flex; */
     justify-content: space-between;
     align-items: center;
     min-height: 6vh;
@@ -44,6 +43,8 @@ nav {
     font-weight: bold;
 }
 
+/****** Navigation same line than Logo ******/
+
 @media screen and (min-width: 800px) {
 
     nav {
@@ -52,4 +53,33 @@ nav {
     .nav-links {
         width: 25em;
     }
+}
+
+/****** Header Section  ******/
+
+header {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+.hero-image {
+    background-image: url("../images/Gloves-greencarpet-mihaly-koles-unsplash.jpg");
+    background-color: rgb(5, 185, 5);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+}  
+.hero-text {
+    margin: 0 5%;
+    top: 10%;
+    background: #061a5499;
+    padding: 2em;
+    border-radius: 10px;
+    max-width: 200px;
+    position: absolute;
+    color: whitesmoke;
+    font-size: 150%;
+
 }
