@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;600&display=swap');
 
+/******   ******/
 * {
     margin: 0;
     padding: 0;
@@ -8,13 +9,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/****** Navigation and Logo ******/
+
+
+
+/****** Navigation and Logo Mobile First Approach  ******/
+
 nav {
-    justify-content: space-between;
-    align-items: center;
-    min-height: 6vh;
+
+    min-height: 9vh;
     background-color: #061a54e6;
-    
+
 }
 
 .logo {
@@ -23,36 +27,28 @@ nav {
     letter-spacing: 5px;
     font-size: 2rem;
 }
+
 .logo a {
     text-decoration: none;
     color: whitesmoke;
 }
+
 .nav-links {
     display: flex;
     justify-content: space-around;
     width: 20em;
 }
+
 .nav-links li {
     list-style: none;
 }
+
 .nav-links a {
     color: whitesmoke;
     text-decoration: none;
     font-size: 1rem;
     letter-spacing: 2px;
     font-weight: bold;
-}
-
-/****** Navigation same line than Logo ******/
-
-@media screen and (min-width: 800px) {
-
-    nav {
-        display: flex;
-    }
-    .nav-links {
-        width: 25em;
-    }
 }
 
 /****** Header Section  ******/
@@ -62,6 +58,7 @@ header {
     height: 50vh;
     position: relative;
 }
+
 .hero-image {
     background-image: url("../images/Gloves-greencarpet-mihaly-koles-unsplash.jpg");
     background-color: rgb(5, 185, 5);
@@ -70,16 +67,66 @@ header {
     background-repeat: no-repeat;
     width: 100%;
     height: 50vh;
-}  
+}
+
 .hero-text {
     margin: 0 5%;
     top: 10%;
     background: #061a5499;
     padding: 2em;
-    border-radius: 10px;
-    max-width: 200px;
+    border-radius: 10px 60px;
+    min-width: 13em;
     position: absolute;
     color: whitesmoke;
-    font-size: 150%;
+}
+
+/******** Main Content Mobile First  ********/
+
+
+
+
+
+
+
+
+
+
+/************ Media Queries for screen size over 800px  ************/
+
+
+@media screen and (min-width: 800px) {
+
+    /******  Navigation and Logo  on same line  ******/
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-links {
+        width: 25em;
+    }
+
+    /****** Hero text increase size  ******/
+
+    .hero-text {
+        font-size: 150%;
+    }
+
+    /******** Main Content display Row ********/
+
+    .container {
+        display: flex;
+        flex-direction: row-reverse;  
+    }
+
+    main.content {
+        flex: 60%;
+    }
+
+    aside.content {
+        flex: 40%;
+    }
 
 }
