@@ -155,3 +155,34 @@ iframe {
     }
 
 }
+
+
+/*************  Footer section *************/
+
+footer {
+    background-color: #061a54;
+    height: 6em;
+    margin-top: 2em;
+    bottom: 0;
+    
+}
+
+.social-networks {
+    text-align: center;
+    line-height: 6em;
+}
+
+.social-networks li {
+    display: inline;
+    padding: 2%;
+
+}
+
+.social-networks i {
+    font-size: 200%;
+    color: white;
+}
+
+footer>p {
+    color: white;
+}
