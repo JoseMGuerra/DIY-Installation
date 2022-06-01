@@ -9,14 +9,16 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+h2, h3, h4, p {
+    padding: .5rem;
+}
 
 
 
 /****** Navigation and Logo Mobile First Approach  ******/
 
 nav {
-
-    min-height: 9vh;
+    min-height: 10vh;
     background-color: #061a54e6;
 
 }
@@ -81,8 +83,25 @@ header {
 }
 
 /******** Main Content Mobile First  ********/
+main.content {
+    padding: 1.2rem;
+}
+
+aside.content {
+    padding: 1.2rem;
+}
 
 
+div img { 
+    width: 100%;
+    height: auto;
+   max-width: 500px;
+}
+
+iframe {
+    height: 100%;
+    width: auto;
+}
 
 
 
@@ -118,15 +137,21 @@ header {
 
     .container {
         display: flex;
-        flex-direction: row-reverse;  
+        flex-wrap: wrap;
     }
 
     main.content {
-        flex: 60%;
+        flex: 70%;
+        padding: 1.2rem;
     }
 
     aside.content {
-        flex: 40%;
+        flex: 30%;
+        padding: 1.2rem;
+    }
+    aside.content img { 
+        max-width: 300px;
+        
     }
 
 }
