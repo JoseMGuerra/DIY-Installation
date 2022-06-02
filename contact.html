@@ -26,7 +26,8 @@
             <li><a href="index.html" aria-label="Go to home page" class="current-page"><i class="fas fa-home"></i>
                     Home</a></li>
 
-            <li><a href="index.html/#project" aria-label="Go to project page"><i class="fa-solid fa-compass-drafting"></i>
+            <li><a href="index.html#project" aria-label="Go to project page"><i
+                        class="fa-solid fa-compass-drafting"></i>
                     Project</a></li>
 
             <li><a href="contact.html" aria-label="Go to Contact form"><i class="fab fa-wpforms"></i> Contact
@@ -43,3 +44,74 @@
             <p><cite>"Because The Grass is Always Greener on the Other Side”</cite> </p>
         </div>
     </header>
+
+    <main>
+
+        <div class="form-container">
+        <form action="https://formdump.codeinstitute.net/" method="post">
+
+            <fieldset>
+                <legend>Personal Details:</legend>
+
+                <label for="name">Name:
+                    <input id="name" type="text" placeholder="Enter your name" required /></label>
+
+                <label for="email">Email:
+                    <input id="email" type="email" placeholder="Enter your email" required /></label>
+
+                <label for="phone">Mobile Number:
+                    <input id="phone" type="tel" pattern="[0-9]{10}" placeholder="Eg: 012 345 6789" /></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Comments:</legend>
+                <label for="comments">
+                    <textarea id="comments" rows="3" cols="30" placeholder="Write your comment here..."></textarea>
+                </label>
+
+            </fieldset>
+
+
+
+            <input type="submit" id="submit" value="Submit">
+
+        </form>
+        </div>
+
+    </main>
+    <footer>
+        <ul class="social-links">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="visit our facebook page (opens in a new tab)"><i
+                        class="fa-brands fa-facebook-square"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.youtube.com/watch?v=gAjIVEmackw&t=1s&ab_channel=Marshalls" target="_blank"
+                    rel="noopener" aria-label="Visit marshalls youtube page (opens in a new tab)"><i
+                        class="fab fa-youtube-square"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our facebook page (opens in a new tab)"><i class="fab fa-instagram-square"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="visit our twitter page (opens in a new tab)"><i class="fa-brands fa-twitter-square"></i>
+                </a>
+            </li>
+
+        </ul>
+    </footer>
+
+
+    <!------ Font awesome link ------>
+
+    <script src="https://kit.fontawesome.com/97317b0f17.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
