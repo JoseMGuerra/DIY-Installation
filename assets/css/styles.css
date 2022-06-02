@@ -10,7 +10,8 @@
 }
 
 body {
-    background-image: url("assets/images/vickholius-nugroho-jt6QxZwSOCQ-unsplash.jpg");
+    background-image: url("../images/whitre-bg-texture-unsplash.webp");
+    background-attachment: fixed;
     font-family: 'Montserrat', sans-serif;
    
 }
@@ -71,8 +72,9 @@ header {
 }
 
 .hero-image {
-    background-image: url("../images/Gloves-greencarpet-mihaly-koles-unsplash.jpg");
-    /* background-color: rgb(5, 185, 5); */
+    background-image: url("../images/Gloves-greencarpet-mihaly-koles-unsplash.webp");
+    background-attachment: fixed;
+    background-color: rgb(5, 185, 5);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -199,7 +201,7 @@ footer {
 
 .form-container {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    background-color: #1e2f6466;
     padding: 2em;
     max-width: 25em;
     margin:  0 auto;
