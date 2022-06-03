@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;600&display=swap");
 :root{
-    --
+--navy: #313552;
+--maroon: #B8405E;
+--green: #2EB086;
+--beige: #EEE6CE;
 }
 /****** Reset Browser Default settings ******/
 * {
@@ -34,16 +37,29 @@ h4 {
 p {
  line-height: 1.4em;
 }
+.how-to h3 {
+ color: var(--maroon);
+}
+h2 {
+ color: var(--green);
+}
+h4 {
+ color: var(--navy);
+}
+.about h3,
+aside.content h3 {
+ color: var(--maroon);
+}
 
 /****** Navigation and Logo Mobile First Approach  ******/
 
 nav {
  min-height: 8vh;
- background-color: #061a54e6;
+ background-color: var(--navy);
 }
 
 .logo {
- color: whitesmoke;
+ color: var(--beige);
  text-transform: uppercase;
  letter-spacing: 5px;
  padding-left: 1rem;
@@ -51,7 +67,7 @@ nav {
 
 .logo a {
  text-decoration: none;
- color: whitesmoke;
+ color: var(--beige);
 }
 
 .nav-links {
@@ -68,14 +84,14 @@ nav {
 }
 
 .nav-links a {
- color: whitesmoke;
+ color: var(--beige);
  text-decoration: none;
  letter-spacing: 2px;
  font-weight: bold;
 }
 
 .nav-links a:hover {
- color: #00c894;
+ color: var(--maroon);
 }
 
 
@@ -90,7 +106,7 @@ header {
 .hero-image {
  background-image: url("../images/gloves-on-green.webp");
  background-attachment: fixed;
- background-color: rgb(5, 185, 5);
+ background-color: var(--green);
  background-size: cover;
  background-position: center;
  background-repeat: no-repeat;
@@ -99,14 +115,15 @@ header {
 }
 
 .hero-text {
+ --maroon: #b8405e82;   
  margin: 0 5%;
  top: 10%;
- background: #061a5499;
+ background: var(--maroon);
  padding: 2em;
  border-radius: 10px 60px;
  min-width: 13em;
  position: absolute;
- color: whitesmoke;
+ color: var(--beige);
 }
 
 /******** Main Content Mobile First  ********/
@@ -187,8 +204,8 @@ div img {
 /*************  Footer section *************/
 
 footer {
- background-color: #061a54;
- color: white;
+ background-color: var(--navy);
+ color: var(--beige);
 }
 
 .social-links {
@@ -210,7 +227,7 @@ footer {
 }
 
 .social-links i:hover {
- color: #00c894;
+ color: var(--maroon);
 }
 .signature {
 display: flex;
@@ -226,8 +243,9 @@ padding-bottom: 1rem;
 /*************  Contact form style *************/
 
 .form-container {
+ --beige: #eee6ce78;   
  border-radius: 5px;
- background-color: #1e2f6466;
+ background-color: var(--beige);
  padding: 2em;
  max-width: 25em;
  margin: 3vh auto;
@@ -237,7 +255,7 @@ padding-bottom: 1rem;
  max-width: 25em;
  min-width: 15em;
  margin: 0 auto;
- background-color: aqua;
+ background-color: var(--green);
  padding: 1.5em;
  border-radius: 5px;
 }
@@ -260,7 +278,7 @@ padding-bottom: 1rem;
 
 legend {
  font-weight: bold;
- padding: 1em;
+ padding: 1rem;
 }
 
 label {
@@ -277,6 +295,9 @@ textarea {
  padding-left: 0.5em;
  border-radius: 10px;
 }
+input {
+width: 100%;
+}
 
 textarea {
  height: 8em;
@@ -285,17 +306,19 @@ textarea {
 }
 
 input[type="submit"] {
+ width: 75%; 
+ margin: auto;  
  display: block;
  height: 3rem;
- background-color: orange;
- color: white;
+ background-color: var(--maroon);
+ color: var(--green);
  font-size: 1.1rem;
  border: none;
  border-radius: 10px;
 }
 
 input[type="submit"]:active {
- background-color: white;
- color: orange;
- border: 1.5px solid orange;
+ background-color: var(--green);
+ color: var(--maroon);
+ border: 2px solid var(--maroon);
 }
