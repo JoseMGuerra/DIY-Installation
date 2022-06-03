@@ -1,12 +1,12 @@
 # Artificial Grass Installation (PP1)
 
-![SG logo](assets/images/shamGrass-logo.png)
+![SG logo](assets/images/readme-images/diyi-logo.png)
 
 ## Description
 
 This Website is the 1st out of five Personal Projects for the Code Institute's  Web Developer course
 with e-Commerce applications. It is built merely using HTML5 and CSS.
-The last update to this file was: **May 25, 2022**
+The last update to this file was: **June 3, 2022**
 
 This website is a guide to the installation of artificial grass and it's purpose is to help
 to clear some doubts about the  necessary steps to successfully undertake this DIY project. I made use of  the information contained here myself when I took the challenge of doing my own garden without previous experience. (photos of my own project will be posted).
@@ -36,14 +36,13 @@ to clear some doubts about the  necessary steps to successfully undertake this D
 ### As a returning user
 
 - I want to be able to contact through social media.
-- I want to be able to fill in a form to ask questions if I have doubts during my   installation.
-- I want to send pictures of my finished project to show in the website.
+- I want to be able to fill in a form to ask questions if I have doubts during my installation.
 
 ## Structure
 
 ### Home page
 
-The user will be greated with a welcome page that will contain an inviting full screen picture.Each page contains a conventional logo positioned on the top left and a navigation bar to all pages in the website on the right side and a botton a the middle of the page with the text "contact" that will bring the user to the contact page. All pages will be responsive and layout will adapt to different screen sizes.In the botton of the page the user will find the footer that  contains  social media links.
+The user will be greated with a hero image of green surface and a pair of builder gloves making a statement of what the website is about .Each page contains a conventional logo positioned on the top left and a navigation bar on the right side, which will me placed under the logo for mobile small screen sizes. All pages will be responsive and layout will adapt to different screen sizes.In the botton of the page the user will find the footer that  contains  social media links.
 
 ### Project page
 
