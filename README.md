@@ -2,6 +2,11 @@
 
 ![DIYI logo](assets/images/readme-images/diyi-logo.png)
 
+[Deployed website here](https://josemguerra.github.io/DIY-Installation/)
+
+![Am I Responsive](assets/images/readme-images/am-i-responsive-test.png)
+
+
 ## Description
 
 This Website is the 1st out of five Personal Projects for the Code Institute's  Web Developer course
@@ -87,4 +92,11 @@ In the contact page the user will find a custom made contact form, where the use
   - Icons from fontawesome are used for throughout the website, from navigation to social media links in the footer.
 - TinyPNG
   - Is the software used to reduce the weight of the images making the website faster and save bandwidth.
- - [Simple Images Converter](https://www.simpleimageresizer.com/online-image-converter)
+
+- [Simple Images Converter](https://www.simpleimageresizer.com/online-image-converter)
+  - Is a image format converter Application to optimize images.
+
+![lighthouse test ](assets/images/readme-images/lighthouse-test.png)
+![HTML validation ](assets/images/readme-images/html-validation.png)
+![CSS validation](assets/images/readme-images/css3-validation.png)
+![Wireframe](assets/images/readme-images/wireframe-desktop.png)
