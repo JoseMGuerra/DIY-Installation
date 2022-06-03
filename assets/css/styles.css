@@ -67,6 +67,10 @@ nav {
     font-weight: bold;
 }
 
+.nav-links a:hover {
+    color: #00C894 ;
+} 
+
 /****** Header Section  ******/
 
 header {
@@ -186,7 +190,8 @@ div img {
 /*************  Footer section *************/
 
 footer {
-    background-color: #061a54;   
+    background-color: #061a54;
+    color: white;   
 }
 
 .social-links {
@@ -206,6 +211,16 @@ footer {
     font-size: 200%;
     color: white;
 }
+
+.social-links i:hover {
+    color: #00C894;
+} 
+footer span {
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+
+
 
 /*************  Contact form style *************/
 
