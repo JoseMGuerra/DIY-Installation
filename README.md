@@ -1,10 +1,10 @@
 # DIYI - Do It Yourself Installation (PP1)
 
-![DIYI logo](assets/images/readme-images/diyi-logo.png)
+![DIYI logo](/readme-images/diyi-logo.png)
 
 [Deployed website here](https://josemguerra.github.io/DIY-Installation/)
 
-![Am I Responsive](assets/images/readme-images/am-i-responsive-test.png)
+![Am I Responsive](/readme-images/am-i-responsive-test.png)
 
 
 ## Description
@@ -48,12 +48,12 @@ to clear some doubts about the  necessary steps to successfully undertake this D
 ### Layout
 
 The website uses a two column responsive layout that will merge into one for small screen size.
-![Two Column layout](assets/images/readme-images/two-column-layout.png)
+![Two Column layout](/readme-images/two-column-layout.png)
 
 ### Home page
 
 The user will be greated with a hero image of green surface and a pair of builder gloves making a statement of what the website is about .Each page contains a conventional logo positioned on the top left and a navigation bar on the right side, which will me placed under the logo for mobile small screen sizes. All pages will be responsive and layout will adapt to different screen sizes.In the botton of the page the user will find the footer that  contains  social media links.
-![Home page nav and hero](assets/images/readme-images/homepage-header-nav.png)
+![Home page nav and hero](/readme-images/homepage-header-nav.png)
 
 ### About section
 
@@ -63,12 +63,12 @@ Under the hero image it is the about section where the user will see and introdu
 
 This is the main section of the website with key information. The project page will feature a explanatory video showcasing the how-to installation of artificial grass. This is one of the resources i used myself when i did the project and the user will find it very beneficial, followed by images of the before and after the project.
 Below  that is a detailed description and images of the 8 more important steps to install artificial grass in a proffessional maner. Images where taken during the process of doing the project, except three of them pictures that are screenshot of the video because i found it would graphically explain more clear the step described.
-![project images and video ](assets/images/readme-images/video-before-after.png)
+![project images and video ](/readme-images/video-before-after.png)
 
 ### Contact page
 
 In the contact page the user will find a custom made contact form, where the user can  input contact personal details and can ask question and about doubts he/she might have about the guide.
-![contact form](assets/images/readme-images/contact-form.png)
+![contact form](/readme-images/contact-form.png)
 
 ## Technologies
 
@@ -96,7 +96,7 @@ In the contact page the user will find a custom made contact form, where the use
 - [Simple Images Converter](https://www.simpleimageresizer.com/online-image-converter)
   - Is a image format converter Application to optimize images.
 
-![lighthouse test ](assets/images/readme-images/lighthouse-test.png)
-![HTML validation ](assets/images/readme-images/html-validation.png)
-![CSS validation](assets/images/readme-images/css3-validation.png)
-![Wireframe](assets/images/readme-images/wireframe-desktop.png)
+![lighthouse test ](/readme-images/lighthouse-test.png)
+![HTML validation ](/readme-images/html-validation.png)
+![CSS validation](/readme-images/css3-validation.png)
+![Wireframe](/readme-images/wireframe-desktop.png)

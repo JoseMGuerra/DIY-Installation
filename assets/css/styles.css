@@ -12,13 +12,16 @@ body {
  background-image: url("../images/whitre-bg-texture-unsplash.webp");
  background-attachment: fixed;
  font-family: "Montserrat", sans-serif;
+ max-width: 2500px;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 h2,
 h3,
 h4,
 p {
- padding: 0.5rem;
+ padding: 0.5em;
 }
 h2,
 h3,
@@ -41,7 +44,7 @@ nav {
  color: whitesmoke;
  text-transform: uppercase;
  letter-spacing: 5px;
- padding-left: 1em;
+ padding-left: 1rem;
 }
 
 .logo a {
@@ -52,7 +55,10 @@ nav {
 .nav-links {
  display: flex;
  justify-content: space-around;
- width: 20em;
+ width: 22em;
+ padding-left: 1rem;
+ padding-top: 1rem;
+ padding-bottom: 1rem;
 }
 
 .nav-links li {
@@ -69,6 +75,7 @@ nav {
 .nav-links a:hover {
  color: #00c894;
 }
+
 
 /****** Header Section  ******/
 
@@ -202,9 +209,15 @@ footer {
 .social-links i:hover {
  color: #00c894;
 }
-footer span {
- padding-left: 1em;
- padding-bottom: 1em;
+.signature {
+display: flex;
+justify-content: center;
+padding-bottom: 1rem;
+}
+
+.signature span {
+    font-size: .8rem;
+    padding: .8rem;
 }
 
 /*************  Contact form style *************/
@@ -270,10 +283,10 @@ textarea {
 
 input[type="submit"] {
  display: block;
- height: 3em;
+ height: 3rem;
  background-color: orange;
  color: white;
- font-size: 1.1em;
+ font-size: 1.1rem;
  border: none;
  border-radius: 10px;
 }
