@@ -1,6 +1,6 @@
-# Artificial Grass Installation (PP1)
+# DIYI - Do It Yourself Installation (PP1)
 
-![SG logo](assets/images/readme-images/diyi-logo.png)
+![DIYI logo](assets/images/readme-images/diyi-logo.png)
 
 ## Description
 
@@ -40,18 +40,30 @@ to clear some doubts about the  necessary steps to successfully undertake this D
 
 ## Structure
 
+### Layout
+
+The website uses a two column responsive layout that will merge into one for small screen size.
+![Two Column layout](assets/images/readme-images/two-column-layout.png)
+
 ### Home page
 
 The user will be greated with a hero image of green surface and a pair of builder gloves making a statement of what the website is about .Each page contains a conventional logo positioned on the top left and a navigation bar on the right side, which will me placed under the logo for mobile small screen sizes. All pages will be responsive and layout will adapt to different screen sizes.In the botton of the page the user will find the footer that  contains  social media links.
+![Home page nav and hero](assets/images/readme-images/homepage-header-nav.png)
 
-### Project page
+### About section
 
-Under the navigation bar of the project page will feature a explanatory video showcasing the how-to installation of artificial grass.
-Below is a detailed description and images of the 8 more important steps to install artificial grass in a proffessional maner.
+Under the hero image it is the about section where the user will see and introduction of what artificial grass isand  a graphic showing how it is made.
+
+### Project section
+
+This is the main section of the website with key information. The project page will feature a explanatory video showcasing the how-to installation of artificial grass. This is one of the resources i used myself when i did the project and the user will find it very beneficial, followed by images of the before and after the project.
+Below  that is a detailed description and images of the 8 more important steps to install artificial grass in a proffessional maner. Images where taken during the process of doing the project, except three of them pictures that are screenshot of the video because i found it would graphically explain more clear the step described.
+![project images and video ](assets/images/readme-images/video-before-after.png)
 
 ### Contact page
 
-In the contact page the user will find a custom made contact form, where the user after input of personal details , can ask question and about doubts he/she might have about the guide.
+In the contact page the user will find a custom made contact form, where the user can  input contact personal details and can ask question and about doubts he/she might have about the guide.
+![contact form](assets/images/readme-images/contact-form.png)
 
 ## Technologies
 
@@ -75,3 +87,4 @@ In the contact page the user will find a custom made contact form, where the use
   - Icons from fontawesome are used for throughout the website, from navigation to social media links in the footer.
 - TinyPNG
   - Is the software used to reduce the weight of the images making the website faster and save bandwidth.
+ - [Simple Images Converter](https://www.simpleimageresizer.com/online-image-converter)
