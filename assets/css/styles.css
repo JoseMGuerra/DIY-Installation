@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;600&display=swap");
-
+:root{
+    --
+}
 /****** Reset Browser Default settings ******/
 * {
  margin: 0;
@@ -86,7 +88,7 @@ header {
 }
 
 .hero-image {
- background-image: url("../images/Gloves-greencarpet-mihaly-koles-unsplash.webp");
+ background-image: url("../images/gloves-on-green.webp");
  background-attachment: fixed;
  background-color: rgb(5, 185, 5);
  background-size: cover;
@@ -194,6 +196,7 @@ footer {
  justify-content: center;
  height: 8vh;
  align-items: center;
+ padding-top: .8rem;
 }
 
 .social-links li {

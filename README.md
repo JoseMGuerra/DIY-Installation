@@ -6,7 +6,6 @@
 
 ![Am I Responsive](/readme-images/am-i-responsive-test.png)
 
-
 ## Description
 
 This Website is the 1st out of five Personal Projects for the Code Institute's  Web Developer course
