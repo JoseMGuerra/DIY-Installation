@@ -33,6 +33,7 @@ h3,
 h4 {
  font-family: "Lobster", cursive, sans-serif;
  text-align: center;
+ letter-spacing: 1px;
 }
 p {
  line-height: 1.4em;
@@ -93,7 +94,9 @@ nav {
 .nav-links a:hover {
  color: var(--maroon);
 }
-
+.current-page {
+border-bottom: 2px solid var(--maroon);
+}
 
 /****** Header Section  ******/
 
@@ -135,12 +138,20 @@ main.content {
 aside.content {
  padding: 1.2em;
 }
+aside.content img {
+ border-radius: 50%;
+ border: 3px solid var(--green);
+}
+aside.content figcaption {
+   text-align: center;
+
+}
 
 div img {
  width: 100%;
  height: auto;
  max-width: 100%;
- border-radius: 5px;
+ border-radius: 10%;
 }
 .graphic {
  max-width: 440px;
