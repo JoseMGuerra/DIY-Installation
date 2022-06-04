@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;600&display=swap");
 :root{
---navy: #313552;
---maroon: #B8405E;
---green: #2EB086;
---beige: #EEE6CE;
+--navy: #071A52;
+--darkgreen: #086972;
+--lightgreen: #A7FF83;
+--green: #17B978;
+--black: #0c0c0ccc;
+--orange: #F55353;
 }
 /****** Reset Browser Default settings ******/
 * {
@@ -36,21 +38,19 @@ h4 {
  letter-spacing: 1px;
 }
 p {
+ color: var(--black);   
  line-height: 1.4em;
 }
 .how-to h3 {
- color: var(--maroon);
+ color: var(--darkgreen);
 }
-h2 {
- color: var(--green);
-}
-h4 {
+.hero-tex h2,
+h4,
+.about h3,
+aside.content h3  {
  color: var(--navy);
 }
-.about h3,
-aside.content h3 {
- color: var(--maroon);
-}
+
 
 /****** Navigation and Logo Mobile First Approach  ******/
 
@@ -60,7 +60,7 @@ nav {
 }
 
 .logo {
- color: var(--beige);
+ color: var(--lightgreen);
  text-transform: uppercase;
  letter-spacing: 5px;
  padding-left: 1rem;
@@ -68,7 +68,7 @@ nav {
 
 .logo a {
  text-decoration: none;
- color: var(--beige);
+ color: var(--lightgreen);
 }
 
 .nav-links {
@@ -85,17 +85,17 @@ nav {
 }
 
 .nav-links a {
- color: var(--beige);
+ color: var(--lightgreen);
  text-decoration: none;
  letter-spacing: 2px;
  font-weight: bold;
 }
 
 .nav-links a:hover {
- color: var(--maroon);
+ color: var(--darkgreen);
 }
 .current-page {
-border-bottom: 2px solid var(--maroon);
+border-bottom: 2px solid var(--darkgreen);
 }
 
 /****** Header Section  ******/
@@ -118,15 +118,15 @@ header {
 }
 
 .hero-text {
- --maroon: #b8405e82;   
+ --green: #17B97882;   
  margin: 0 5%;
  top: 10%;
- background: var(--maroon);
+ background: var(--green);
  padding: 2em;
  border-radius: 10px 60px;
  min-width: 13em;
  position: absolute;
- color: var(--beige);
+ color: var(--navy);
 }
 
 /******** Main Content Mobile First  ********/
@@ -151,7 +151,7 @@ div img {
  width: 100%;
  height: auto;
  max-width: 100%;
- border-radius: 10%;
+ border-radius: 5%;
 }
 .graphic {
  max-width: 440px;
@@ -238,7 +238,7 @@ footer {
 }
 
 .social-links i:hover {
- color: var(--maroon);
+ color: var(--green);
 }
 .signature {
 display: flex;
@@ -249,14 +249,15 @@ padding-bottom: 1rem;
 .signature span {
     font-size: .8rem;
     padding: .8rem;
+    color: var(--lightgreen);
 }
 
 /*************  Contact form style *************/
 
 .form-container {
- --beige: #eee6ce78;   
+ --orange: #F5535382;   
  border-radius: 5px;
- background-color: var(--beige);
+ background-color: var(--orange);
  padding: 2em;
  max-width: 25em;
  margin: 3vh auto;
@@ -321,7 +322,7 @@ input[type="submit"] {
  margin: auto;  
  display: block;
  height: 3rem;
- background-color: var(--maroon);
+ background-color: var(--navy);
  color: var(--green);
  font-size: 1.1rem;
  border: none;
@@ -331,5 +332,5 @@ input[type="submit"] {
 input[type="submit"]:active {
  background-color: var(--green);
  color: var(--maroon);
- border: 2px solid var(--maroon);
+ border: 2px solid var(--orange);
 }
