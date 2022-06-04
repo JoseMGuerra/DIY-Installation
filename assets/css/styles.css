@@ -24,12 +24,15 @@ body {
  margin-right: auto;
 }
 
-h2,
 h3,
 h4,
 p {
- padding: 0.5em;
+ padding: 1.1rem;
 }
+h2 {
+    padding: 1rem;
+}
+
 h2,
 h3,
 h4 {
@@ -39,11 +42,12 @@ h4 {
 }
 p {
  color: var(--black);   
- line-height: 1.4em;
+ line-height: 1.4rem;
 }
 .how-to h3 {
  color: var(--darkgreen);
 }
+
 .hero-tex h2,
 h4,
 .about h3,
@@ -146,6 +150,11 @@ aside.content img {
 aside.content figcaption {
    text-align: center;
 
+}
+.map-container iframe {
+    padding-bottom: 2rem;
+    width: 100%;
+    
 }
 
 .down-top-btn {
