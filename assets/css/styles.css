@@ -92,10 +92,10 @@ nav {
 }
 
 .nav-links a:hover {
- color: var(--darkgreen);
+ color: var(--orange);
 }
 .current-page {
-border-bottom: 2px solid var(--darkgreen);
+border-bottom: 2px solid var(--orange);
 }
 
 /****** Header Section  ******/
@@ -137,6 +137,7 @@ main.content {
 
 aside.content {
  padding: 1.2em;
+ position: relative;
 }
 aside.content img {
  border-radius: 50%;
@@ -146,6 +147,26 @@ aside.content figcaption {
    text-align: center;
 
 }
+
+.down-top-btn {
+margin-right: 1rem;
+margin-bottom: 1rem;
+width: 8rem;
+height: 3rem;
+background-color: var(--orange);
+color: var(--lightgreen);
+position: absolute;
+bottom: 0;
+right: 0;
+text-decoration: none;
+text-transform: uppercase;
+font-size: large;
+font-weight: bold;
+border-radius: 10px;
+line-height: 2.5;
+}
+    
+
 
 div img {
  width: 100%;
