@@ -151,8 +151,6 @@ aside.content figcaption {
 .down-top-btn {
 margin-right: 1rem;
 margin-bottom: 1rem;
-width: 8rem;
-height: 3rem;
 background-color: var(--orange);
 color: var(--lightgreen);
 position: absolute;
@@ -162,8 +160,8 @@ text-decoration: none;
 text-transform: uppercase;
 font-size: large;
 font-weight: bold;
-border-radius: 10px;
-line-height: 2.5;
+border-radius: 4px;
+padding: .75rem;
 }
     
 
