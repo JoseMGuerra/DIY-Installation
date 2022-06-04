@@ -51,12 +51,12 @@ The website uses a two column responsive layout that will merge into one for sma
 
 ### Home page
 
-The user will be greated with a hero image of green surface and a pair of builder gloves making a statement of what the website is about .Each page contains a conventional logo positioned on the top left and a navigation bar on the right side, which will me placed under the logo for mobile small screen sizes. All pages will be responsive and layout will adapt to different screen sizes.In the botton of the page the user will find the footer that  contains  social media links.
+The user will be greated with a hero image of green surface and a pair of builder gloves making a statement of what the website is about .Each page contains a conventional logo positioned on the top left and a navigation bar on the right side, which will me placed under the logo for mobile small screen sizes. All pages will be responsive and layout will adapt to different screen sizes.In the botton of the page the user will find the footer that  contains  social media links and a button to return to the top of the home page.
 ![Home page nav and hero](readme-images/nav-header.png)
 
 ### About section
 
-Under the hero image it is the about section where the user will see and introduction of what artificial grass isand  a graphic showing how it is made.
+Under the hero image it is the about section where the user will see and introduction of what artificial grass is and  a graphic showing how it is made.
 
 ### Project section
 
@@ -70,31 +70,115 @@ In the contact page the user will find a custom made contact form, where the use
 
 ## Technologies
 
-- HTML
+- [HTML](https://www.w3schools.com/html/default.asp)
   - This project uses html as the mark up language to give structure to the website.
-- CSS
+- [CSS](https://www.w3schools.com/css/default.asp)
   - This project uses css language to style the website.
-- Github
+- [Github](https://github.com/)
   - GithHub is the site used to store the source code for the Website.
-- Git
+- [Git](https://git-scm.com/)
   - Git is the  version control software used to commit and push code to the GitHub repository where the source code is stored.
-- Visual Studio Code
+- [Visual Studio Code](https://code.visualstudio.com/)
   - VS Code for short is the integrated development environment (IDE) software used to build the website.
-- Developer Tools
+- [Developer Tools](https://developer.chrome.com/docs/devtools/)
   - Google chromes built in developer tools are used to inspect page elements and help debug issues with the site layout and test different CSS styles.
-- Balsamiq
+- [Balsamiq](https://balsamiq.com/givingback/free/classroom/)
   - This software was used to create wireframes or sketches of the website.
-- Google Fonts
+- [Google Fonts](https://fonts.google.com/)
   - Google fonts are imported and used as main typography in the project.
-- Font Awesome
+- [Font Awesome](https://fontawesome.com/)
   - Icons from fontawesome are used for throughout the website, from navigation to social media links in the footer.
-- TinyPNG
+- [TinyPNG](https://tinypng.com/)
   - Is the software used to reduce the weight of the images making the website faster and save bandwidth.
 
 - [Simple Images Converter](https://www.simpleimageresizer.com/online-image-converter)
   - Is a image format converter Application to optimize images.
 
-![lighthouse test ](/readme-images/lighthouse-test.png)
-![HTML validation ](/readme-images/html-validation.png)
-![CSS validation](/readme-images/css3-validation.png)
-![Wireframe](/readme-images/wireframe-desktop.png)
+- [Code Beautify](https://codebeautify.org/)
+
+  - Is a software that help beautify the code resulting in reducing data an improving performance.
+
+## Testing
+
+- ### Links
+
+  - All links have been tested and they are working as the should.
+    - Home
+    - Project
+    - Contact
+    - Logo
+    - Top
+
+- ### Form
+
+  - Input fields in the form are working as expected, eg. if user miss to fill a required field an error message pops up.
+
+  - When the form is filled correctly a new window opens confirming that the form has been correctly submited.
+
+- ### HTML and CSS
+
+  - HTML validation
+
+    - ![HTML validation ](/readme-images/html-validation.png)
+
+  - Readable colour scheme
+
+    - ![Color scheme](readme-images/color-scheme.png)
+
+    - Header checker
+      - ![header checker](readme-images/contrast-checher-header.png)
+    - Body checker
+      - ![body checker](readme-images/contrast-checker-main.png)
+
+  - CSS validation
+
+    - ![CSS validation](/readme-images/css3-validation.png)
+
+  - Lighthouse Test
+
+    - ![lighthouse test](/readme-images/lighthouse-test.png)
+
+  - Compability test
+
+    - The website had been tested on windows-10, Mac Os, Android phone, with no      errors reported.
+
+### Bugs report
+
+- lighthouse reported images with no specific width and height and obsolete extentions.
+
+  - solution: added width and height measurements and change image extention to .webp.
+
+- Error on planing initial layout and  i couldn't make it work in mobile screen size.
+
+  - solution: started the proyect with a mobile first aproach.
+
+
+
+## Wireframe
+
+- Final product had changed from the initial plan to improve design and funtionality.
+
+  - ![Wireframe](readme-images/wireframe-desktop.png)
+
+## Deployment
+
+- The site was deployed to GitHub pages. Following this steps:
+
+  - Log in to GitHub and access the Repository.
+  - In the GitHub repository, navigate to the "Settings" tab.
+  - Go to  "Pages" on the left hand menu.
+  - Under "Source", select "Main" in the dropdown menu.
+  - Next to select "Root" in the right dropdrown menu.
+  - Click the "Save" button.
+  - Your site URL will be highligthed in green and ready un a few minutes.
+  ## Resources
+
+  - [W3Schools](https://www.w3schools.com/)
+  - [Kevin Powell](https://www.youtube.com/watch?v=VQraviuwbzU&t=329s)
+  - [Haydn Adams](https://www.youtube.com/watch?v=0L8cQ9nRtuE)
+  - [Wikipedia](https://en.wikipedia.org/wiki/Artificial_turf)
+  - [Stackoverflow](https://stackoverflow.com/)
+
+## Acknowledgments
+
+- Thank you to my mentor Brian Macharia for giving me good feedback and pointing me in the right direction., and my collegues and slack comunity at Code Institute.

@@ -42,17 +42,20 @@ h4 {
 }
 p {
  color: var(--black);   
- line-height: 1.4rem;
+ line-height: 1.1;
 }
 .how-to h3 {
  color: var(--darkgreen);
 }
 
-.hero-tex h2,
+.hero-text h2,
 h4,
 .about h3,
 aside.content h3  {
  color: var(--navy);
+}
+.hero-text h5 {
+    padding: 0;
 }
 
 
@@ -350,15 +353,15 @@ input[type="submit"] {
  margin: auto;  
  display: block;
  height: 3rem;
- background-color: var(--navy);
- color: var(--green);
+ background-color: var(--green);
+ color: var(--navy);
  font-size: 1.1rem;
  border: none;
  border-radius: 10px;
 }
 
 input[type="submit"]:active {
- background-color: var(--green);
- color: var(--maroon);
- border: 2px solid var(--orange);
+ background-color: var(--navy);
+ color: var(--green);
+ border: 3px solid var(--green);
 }
