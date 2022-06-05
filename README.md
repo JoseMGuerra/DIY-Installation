@@ -2,7 +2,8 @@
 
 ![DIYI logo](/readme-images/diyi-logo.png)
 
-[Deployed website here](https://josemguerra.github.io/DIY-Installation/)
+[Deployed live website here](https://josemguerra.github.io/DIY-Installation/)
+[Github code here](https://github.com/JoseMGuerra/DIY-Installation)
 
 ![Am I Responsive](/readme-images/am-i-responsive-test.png)
 
