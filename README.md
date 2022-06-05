@@ -10,10 +10,10 @@
 
 This Website is the 1st out of five Personal Projects for the Code Institute's  Web Developer course
 with e-Commerce applications. It is built merely using HTML5 and CSS.
-The last update to this file was: **June 3, 2022**
+The last update to this file was: **June 5, 2022**
 
 This website is a guide to the installation of artificial grass and it's purpose is to help
-to clear some doubts about the  necessary steps to successfully undertake this DIY project. I made use of  the information contained here myself when I took the challenge of doing my own garden without previous experience. (photos of my own project will be posted).
+to clear doubts about the  necessary steps to successfully undertake this DIY project. I made used of  the information contained here myself when I took the challenge of doing my very own garden without previous experience. (photos of my own project are included).
 
 ## Target user
 
@@ -44,6 +44,10 @@ to clear some doubts about the  necessary steps to successfully undertake this D
 
 ## Structure
 
+### Typography
+
+Main font used in the website is Monserrat which is beautiful and with excellent readability features and compliments and highlights the Lobster font of the headings.
+
 ### Layout
 
 The website uses a two column responsive layout that will merge into one for small screen size.
@@ -51,7 +55,7 @@ The website uses a two column responsive layout that will merge into one for sma
 
 ### Home page
 
-The user will be greated with a hero image of green surface and a pair of builder gloves making a statement of what the website is about .Each page contains a conventional logo positioned on the top left and a navigation bar on the right side, which will me placed under the logo for mobile small screen sizes. All pages will be responsive and layout will adapt to different screen sizes.In the botton of the page the user will find the footer that  contains  social media links and a button to return to the top of the home page.
+The user will be greated with a hero image of green surface and a pair of builder gloves making it clear to the user  of what the website is about .Each page contains a conventional logo positioned on the top left and a navigation bar on the right side, which will me placed under the logo for mobile small screen sizes. All pages will be responsive and layout will adapt to different screen sizes.In the botton of the page the user will find the footer that  contains  social media links and a button to return to the top of the home page to enhance the user experience.
 ![Home page nav and hero](readme-images/nav-header.png)
 
 ### About section
@@ -102,7 +106,7 @@ In the contact page the user will find a custom made contact form, where the use
 
 - ### Links
 
-  - All links have been tested and they are working as the should.
+  - All links have been tested and they are working as they are expected.
     - Home
     - Project
     - Contact
@@ -156,7 +160,7 @@ In the contact page the user will find a custom made contact form, where the use
 
 ## Wireframe
 
-- Final product had changed from the initial plan to improve design and funtionality.
+- Final product had changed from the initial plan to improve design and functionality.
 
   - ![Wireframe](readme-images/wireframe-desktop.png)
 
@@ -171,14 +175,26 @@ In the contact page the user will find a custom made contact form, where the use
   - Next to select "Root" in the right dropdrown menu.
   - Click the "Save" button.
   - Your site URL will be highligthed in green and ready un a few minutes.
-  ## Resources
 
-  - [W3Schools](https://www.w3schools.com/)
-  - [Kevin Powell](https://www.youtube.com/watch?v=VQraviuwbzU&t=329s)
-  - [Haydn Adams](https://www.youtube.com/watch?v=0L8cQ9nRtuE)
-  - [Wikipedia](https://en.wikipedia.org/wiki/Artificial_turf)
-  - [Stackoverflow](https://stackoverflow.com/)
+## Resources / Credits / Inspiration
+
+- The project that the website is based on, it's been  done by myself.
+- The video included by Marshalls (linked bellow) is the one i used as a reference to learn how to install artificial grass.
+- Header and background images are from unsplash (linked bellow).
+- Step by step pictures are from the actual DIY project and taken by me.( except three screenshot from the video, for clarity reasons.)
+- Responsive iframe video idea is from Hayden Adams and adapted to suit the site requirements.(linked bellow)
+- About section is based on wikipedia (linked bellow).
+- [W3Schools](https://www.w3schools.com/)
+- [Kevin Powell](https://www.youtube.com/watch?v=VQraviuwbzU&t=329s)
+- [Haydn Adams](https://www.youtube.com/watch?v=0L8cQ9nRtuE)
+- [Marshalls](https://www.youtube.com/watch?v=gAjIVEmackw&t=2s)
+- [Wikipedia](https://en.wikipedia.org/wiki/Artificial_turf)
+- [Stackoverflow](https://stackoverflow.com/)
+- [Unsplash](https://unsplash.com/photos/eYVCbkNbfvg)
+- [Google maps](https://www.google.com/maps/search/artificial+grass+material/@53.6904225,-6.5434821,10z/data=!3m1!4b1)
+- Love Running project.
+- Coders Shop project.
 
 ## Acknowledgments
 
-- Thank you to my mentor Brian Macharia for giving me good feedback and pointing me in the right direction., and my collegues and slack comunity at Code Institute.
+- Thank you to my mentor Brian Macharia for giving me good feedback and pointing me on the right direction., and my collegues and slack comunity at Code Institute.

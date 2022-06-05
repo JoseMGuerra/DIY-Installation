@@ -42,7 +42,8 @@ h4 {
 }
 p {
  color: var(--black);   
- line-height: 1.1;
+ line-height: 1.4;
+ padding-bottom: 2rem;
 }
 .how-to h3 {
  color: var(--darkgreen);
@@ -59,7 +60,7 @@ aside.content h3  {
 }
 
 
-/****** Navigation and Logo Mobile First Approach  ******/
+/****** Navigation and Logo Mobile First  ******/
 
 nav {
  min-height: 8vh;
@@ -175,8 +176,6 @@ font-weight: bold;
 border-radius: 4px;
 padding: .75rem;
 }
-    
-
 
 div img {
  width: 100%;
@@ -202,6 +201,7 @@ div img {
  left: 0;
  width: 100%;
  height: 100%;
+ border-radius: 5%;
 }
 
 /************ Media Queries for  bigger screen sizes ************/
@@ -283,7 +283,7 @@ padding-bottom: 1rem;
     color: var(--lightgreen);
 }
 
-/*************  Contact form style *************/
+/*************  Contact Form  *************/
 
 .form-container {
  --orange: #F5535382;   
