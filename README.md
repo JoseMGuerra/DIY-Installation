@@ -21,6 +21,7 @@ to clear doubts about the  necessary steps to successfully undertake this DIY pr
 ### The target user for the website is
 
 - English speaker.
+- Spanish speaker.
 - Interested in DIY.
 
 ### User of this website are browsing for
@@ -37,6 +38,7 @@ to clear doubts about the  necessary steps to successfully undertake this DIY pr
 - I want to see a video explaining the installation.
 - I want to see pictures of projects done using this guide.
 - I want to be able to view the content in my mobile phone.
+- I want to be able to view the content translated into Spanish Language.
 
 ### As a returning user
 
@@ -156,8 +158,6 @@ In the contact page the user will find a custom made contact form, where the use
 - Error on planing initial layout and  i couldn't make it work in mobile screen size.
 
   - solution: started the proyect with a mobile first aproach.
-
-
 
 ## Wireframe
 

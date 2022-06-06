@@ -136,6 +136,15 @@ header {
  position: absolute;
  color: var(--navy);
 }
+.language {
+    position:absolute;
+    right: 1rem;
+    bottom: 1rem;
+}
+.language a {
+    text-decoration: none;
+    color: var(--lightgreen);
+}
 
 /******** Main Content Mobile First  ********/
 
