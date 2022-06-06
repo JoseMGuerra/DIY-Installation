@@ -145,6 +145,9 @@ header {
     text-decoration: none;
     color: var(--lightgreen);
 }
+.language a:hover {
+    color: var(--orange);
+}
 
 /******** Main Content Mobile First  ********/
 
