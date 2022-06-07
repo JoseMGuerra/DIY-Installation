@@ -5,7 +5,8 @@
 --lightgreen: #A7FF83;
 --green: #17B978;
 --black: #0c0c0ccc;
---orange: #F55353;
+--orange: #f55353;
+--yellow: #f3f553;
 }
 /****** Reset Browser Default settings ******/
 * {
@@ -143,7 +144,7 @@ header {
 }
 .language a {
     text-decoration: none;
-    color: var(--lightgreen);
+    color: var(--yellow);
 }
 .language a:hover {
     color: var(--orange);
