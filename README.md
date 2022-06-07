@@ -3,6 +3,7 @@
 ![DIYI logo](/readme-images/diyi-logo.png)
 
 [Deployed live website here](https://josemguerra.github.io/DIY-Installation/)
+
 [Github code here](https://github.com/JoseMGuerra/DIY-Installation)
 
 ![Am I Responsive](/readme-images/am-i-responsive-test.png)
@@ -58,7 +59,7 @@ The website uses a two column responsive layout that will merge into one for sma
 
 ### Home page
 
-The user will be greated with a hero image of green surface and a pair of builder gloves making it clear to the user  of what the website is about .Each page contains a conventional logo positioned on the top left and a navigation bar on the right side, which will me placed under the logo for mobile small screen sizes. All pages will be responsive and layout will adapt to different screen sizes.In the botton of the page the user will find the footer that  contains  social media links and a button to return to the top of the home page to enhance the user experience.
+The user will be greated with a hero image of green surface and a pair of builder gloves making it clear to the user  of what the website is about .Each page contains a conventional logo positioned on the top left and a navigation bar on the right side, which will me placed under the logo for mobile small screen sizes. Additionally, on the bottom right corner of the hero image there is a link in all the pages to translate the website into spanish language. All pages will be responsive and layout will adapt to different screen sizes.In the botton of the page the user will find the footer that  contains  social media links and a button to return to the top of the home page to enhance the user experience.
 ![Home page nav and hero](readme-images/nav-header.png)
 
 ### About section
